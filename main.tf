@@ -1,3 +1,8 @@
+/* a list of local variables */
+locals {
+  jones = ["indy", "henry", "marian", "katanga"]
+}
+
 terraform {
   required_providers {
     null = {
