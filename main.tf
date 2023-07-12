@@ -16,10 +16,12 @@ provider "null" {
   # Configuration options
 }
 
-/* a list of local variables */
+/* a list of local variables
 locals {
   jones = ["indy", "henry", "marian"]
 }
+
+ */
 
 
 /* The null_resource implements the standard resource lifecycle but takes no more action */
